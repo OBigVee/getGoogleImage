@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crawlimage"
+version = "0.1.0"
+description = ""
+authors = ["obigvee <adedejivictor98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-images-download = "^2.8.0"
+selenium = "^4.23.0"
+requests = "^2.32.3"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
